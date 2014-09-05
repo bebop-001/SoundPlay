@@ -1,0 +1,46 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:id="@+id/LinearLayout1"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:layout_gravity="center"
+	android:orientation="vertical"
+	tools:context="${relativePackage}.${activityClass}" >
+
+	<Button
+		android:id="@+id/bark"
+		android:layout_width="match_parent"
+		android:layout_height="0dp"
+		android:layout_gravity="fill"
+		android:layout_weight="1"
+        android:onClick="buttonClick"
+		android:text="Bark" />
+
+	<Button
+		android:id="@+id/drip"
+		android:layout_width="match_parent"
+		android:layout_height="0dp"
+		android:layout_gravity="center"
+		android:layout_weight="1"
+        android:onClick="buttonClick"
+		android:text="Drip" />
+
+	<Button
+		android:id="@+id/glass"
+		android:layout_width="match_parent"
+		android:layout_height="0dp"
+		android:layout_gravity="center"
+		android:layout_weight="1"
+        android:onClick="buttonClick"
+		android:text="Glass" />
+
+	<Button
+		android:id="@+id/sonar"
+		android:layout_width="match_parent"
+		android:layout_height="0dp"
+		android:layout_gravity="center"
+		android:layout_weight="1"
+        android:onClick="buttonClick"
+		android:text="Sonar" />
+
+</LinearLayout>
